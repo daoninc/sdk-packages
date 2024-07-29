@@ -10,14 +10,24 @@ Maven Package Registry
 **Groovy DSL**
 ```
 repositories {
-    maven { url "https://maven.pkg.github.com/daoninc/sdk-packages/" }
+    maven { url "https://maven.pkg.github.com/daoninc/sdk-packages/"
+        credentials {
+            username GITHUB_USER
+            password GITHUB_TOKEN
+        }}
 }
 ```
 
 **Kotlin DSL**
 ```
 repositories {
-    maven(url = "https://maven.pkg.github.com/daoninc/sdk-packages/")
+    maven {
+        url = uri("https://maven.pkg.github.com/daoninc/sdk-packages/")
+        credentials {
+            username = GITHUB_USER
+            password = GITHUB_TOKEN
+        }
+    }
 }
 ```
 
