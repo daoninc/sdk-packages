@@ -37,7 +37,7 @@ See [Managing your personal access tokens](https://docs.github.com/en/authentica
 
 ![Fine-grained access token](images/github-token-fine-grained.png)
 
-Use your GitHub user name and token for username and password, e.g:
+Use your GitHub username and token for username and password, e.g:
 
 ```
 repositories {
