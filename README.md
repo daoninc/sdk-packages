@@ -31,8 +31,13 @@ repositories {
 }
 ```
 ### GitHub Access Tokens
-To access the repository you need a Personal Access Token. Personal access tokens are an alternative to using passwords for authentication to GitHub. See 
-[Managing your personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) and [Creating a classic personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic). Use your github user name and token for username and password, e.g:
+To access the repository you need a Personal Access Token. Personal access tokens are an alternative to using passwords for authentication to GitHub. 
+
+See [Managing your personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) and [creating a classic personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) or [fine-grained personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token). 
+
+![Fine-grained access token](images/github-token-fine-grained.png)
+
+Use your GitHub user name and token for username and password, e.g:
 
 ```
 repositories {
